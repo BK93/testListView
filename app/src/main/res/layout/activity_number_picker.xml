@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/height_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="身長"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+    <com.test.designsupportlibrarytest.number_picker.CustomNumberPicker
+        android:id="@+id/height"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:text="150.0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        custom:max_value="300"
+        custom:min_value="100"
+        custom:num_picker_title="身長"
+        custom:unit="cm"
+        custom:value="150" />
+
+    <TextView
+        android:id="@+id/weight_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="体重"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+    <com.test.designsupportlibrarytest.number_picker.CustomNumberPicker
+        android:id="@+id/weight"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:text="50.0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        custom:max_value="300"
+        custom:min_value="30"
+        custom:num_picker_title="体重"
+        custom:unit="kg"
+        custom:value="50" />
+
+</LinearLayout>

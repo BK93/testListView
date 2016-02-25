@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomNumberPicker">
+        <attr name="value" format="integer" />
+        <attr name="min_value" format="integer" />
+        <attr name="max_value" format="integer" />
+        <attr name="num_picker_title" format="string" />
+        <attr name="unit" format="string" />
+    </declare-styleable>
+</resources>
