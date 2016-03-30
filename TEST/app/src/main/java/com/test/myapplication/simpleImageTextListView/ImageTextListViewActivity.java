@@ -10,7 +10,7 @@ import android.util.Log;
 import android.widget.ListView;
 
 import com.test.myapplication.R;
-import com.test.myapplication.model.SimpleName;
+import com.test.myapplication.model.SimpleImageName;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -54,7 +54,7 @@ public class ImageTextListViewActivity extends AppCompatActivity {
         final AssetManager manager = getResources().getAssets();
 
         try {
-            AssetManager.AssetInputStream assetInputStream = (AssetManager.AssetInputStream) manager.open("food.json");
+            AssetManager.AssetInputStream assetInputStream = (AssetManager.AssetInputStream) manager.open("food_image.json");
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(assetInputStream));
 
             StringBuilder stringBuilder = new StringBuilder();
@@ -88,9 +88,9 @@ public class ImageTextListViewActivity extends AppCompatActivity {
                 array = obj.getJSONArray("test");
             }
 
-            ArrayList<SimpleName> list = new ArrayList<>();
+            ArrayList<SimpleImageName> list = new ArrayList<>();
             for (int i = 0; i < array.length(); i++) { //24
-                SimpleName simpleName = new SimpleName();
+                SimpleImageName simpleName = new SimpleImageName();
                 // array has set of key = name.
                 simpleName.setJSONObject(array.getJSONObject(i));
                 list.add(simpleName);
