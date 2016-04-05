@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/BoGyeongLee/develop/benkyo-kai/TEST/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/BoGyeongLee/develop/benkyo-kai/TEST/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_7b7fa60c3a40dde31096ecdf0b8e4ad0930d84f3.jar" />
+    </item>
+    <item
+        jar="/Users/BoGyeongLee/develop/benkyo-kai/TEST/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/BoGyeongLee/develop/benkyo-kai/TEST/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_2cc3afe888b79f5b97383ea877dc41797c654418.jar" />
+    </item>
+    <item
+        jar="/Users/BoGyeongLee/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/BoGyeongLee/develop/benkyo-kai/TEST/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_c18f753ca3a891fdaca8b2452e898d9403fcc568.jar" />
+    </item>
+    <item
+        jar="/Users/BoGyeongLee/Library/Android/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/BoGyeongLee/develop/benkyo-kai/TEST/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_47dad7f8e263a4c78e2fd7971c41325ee05a2f4e.jar" />
+    </item>
+    <item
+        jar="/Users/BoGyeongLee/develop/benkyo-kai/TEST/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/BoGyeongLee/develop/benkyo-kai/TEST/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_cdca472359fd3b599f7280b93861b4098d58cc12.jar" />
+    </item>
+    <item
+        jar="/Users/BoGyeongLee/develop/benkyo-kai/TEST/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/BoGyeongLee/develop/benkyo-kai/TEST/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_ec9981366780f0f7978dd8677dce8cab816a2c59.jar" />
+    </item>
+    <item
+        jar="/Users/BoGyeongLee/develop/benkyo-kai/TEST/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/BoGyeongLee/develop/benkyo-kai/TEST/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_df1e3650e2e4b5fd575fea54f26247aaff32e7f1.jar" />
+    </item>
+    <item
+        jar="/Users/BoGyeongLee/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/BoGyeongLee/develop/benkyo-kai/TEST/app/build/intermediates/pre-dexed/debug/glide-3.7.0_307ab1fda29173565e7591603e22f243bf78892b.jar" />
+    </item>
+
+</items>
