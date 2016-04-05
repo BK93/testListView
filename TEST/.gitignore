@@ -6,3 +6,22 @@
 .DS_Store
 /build
 /captures
+
+#for gradle, IDEA
+gradle.properties
+!.idea/runConfigurations/*
+.idea/copyright/
+.idea/inspectionProfiles/
+.idea/dictionaries/
+.idea/*.xml
+.idea/.name
+.idea/fileTemplates/
+build
+
+#key
+release.gradle
+
+captures
+
+#for google services, for push notifications
+app/google-services.json
