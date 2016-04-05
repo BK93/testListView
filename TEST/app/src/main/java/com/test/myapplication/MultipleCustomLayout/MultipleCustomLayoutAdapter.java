@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.test.myapplication.R;
@@ -52,7 +53,7 @@ public class MultipleCustomLayoutAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, final ViewGroup parent) {
 
         SimpleImageName data = simpleNames.get(position);
 
@@ -62,7 +63,7 @@ public class MultipleCustomLayoutAdapter extends BaseAdapter {
             convertView = inflater.inflate(R.layout.list_item_image_text2, null);
         }
 
-        TextView textView = (TextView) convertView.findViewById(R.id.text);
+        final TextView textView = (TextView) convertView.findViewById(R.id.text);
         textView.setText(data.getName());
 
         ImageView imageView = (ImageView) convertView.findViewById(R.id.image);
@@ -73,6 +74,15 @@ public class MultipleCustomLayoutAdapter extends BaseAdapter {
                 .load(url)
                 .centerCrop()
                 .into(imageView);
+
+        // 리스트 아이템을 터치 했을 때 이벤트 발생
+        convertView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 터치 시 해당 아이템 이름 출력
+                Toast.makeText(parent.getContext(), textView.getText(), Toast.LENGTH_SHORT).show();
+            }
+        });
 
         return convertView;
     }
