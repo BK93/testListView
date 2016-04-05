@@ -1,4 +1,4 @@
-package com.test.myapplication.MultipleCustomLayout;
+package com.test.myapplication.multipleCustomLayout;
 
 import android.content.Context;
 import android.support.annotation.NonNull;

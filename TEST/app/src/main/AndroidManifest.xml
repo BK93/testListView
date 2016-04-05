@@ -23,7 +23,7 @@
 
         <activity android:name=".simpleImageTextListView.ImageTextListViewActivity"/>
 
-        <activity android:name=".MultipleCustomLayout.MultipleCustomLayoutActivity"/>
+        <activity android:name=".multipleCustomLayout.MultipleCustomLayoutActivity"/>
 
     </application>
 
